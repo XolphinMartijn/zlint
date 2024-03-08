@@ -39,6 +39,7 @@ var (
 	RFC6818Date                = time.Date(2013, time.January, 1, 0, 0, 0, 0, time.UTC)
 	RFC8813Date                = time.Date(2020, time.August, 1, 0, 0, 0, 0, time.UTC)
 	CABEffectiveDate           = time.Date(2012, time.July, 1, 0, 0, 0, 0, time.UTC)
+	EVG1_2Date                 = time.Date(2009, time.October, 1, 0, 0, 0, 0, time.UTC)
 	CABReservedIPDate          = time.Date(2016, time.October, 1, 0, 0, 0, 0, time.UTC)
 	CABGivenNameDate           = time.Date(2016, time.September, 7, 0, 0, 0, 0, time.UTC)
 	CABSerialNumberEntropyDate = time.Date(2016, time.September, 30, 0, 0, 0, 0, time.UTC)
@@ -81,6 +82,7 @@ var (
 	CABFBRs_1_8_7_Date = time.Date(2023, time.July, 15, 0, 0, 0, 0, time.UTC)
 	// Updates to the CABF BRs and EVGLs from Ballot SC 062 https://cabforum.org/2023/03/17/ballot-sc62v2-certificate-profiles-update/
 	SC62EffectiveDate = time.Date(2023, time.September, 15, 0, 0, 0, 0, time.UTC)
+	SC63EffectiveDate = time.Date(2023, time.March, 15, 0, 0, 0, 0, time.UTC)
 )
 
 var (
